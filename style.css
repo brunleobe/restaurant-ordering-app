@@ -1,0 +1,281 @@
+
+header {
+    /* background-size: cover; */
+    background-position: center;
+    color: white;
+    padding: 45px 25px;
+    position: relative;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+.header {
+    background-image: -moz-element();
+    display: block;     
+    margin: auto; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+
+/* Container Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #333333;
+    width: 600px;   
+    height: fit-content; 
+  margin: 0 auto;
+  /* margin-top: 50px;
+  margin-bottom: 100px; */
+  border: 1px solid black;
+}
+.restaurant-title {
+    text-align: center;
+}
+
+.restaurant-tagline {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;     
+    margin: auto;
+    margin-top: 0; 
+    max-width: 100%; 
+    height: 167px;
+    width: 600px; 
+}
+
+
+/* Menu Section Styling */
+#foods-menu {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+/* Menu Item Styling */
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 45px 0;
+    border-bottom: 1px solid black;
+}
+
+.menu-item-content {
+    flex-grow: 1;
+    display: flex;
+}
+
+.menu-item-emoji {
+    font-size: 70px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-details {
+    flex-grow: 1;
+}
+
+.menu-item h3 {
+    margin: 0 0 8px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.ingredients {
+    color: #8B8B8B;
+    margin: 0 0 12px 0;
+    font-size: 14px;
+}
+
+.menu-item .price {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.add-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3C3C3C;
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+.add-btn:hover {
+    background-color: #F5F5F5;
+}
+
+/* Order Section Styling */
+.order-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 24px;
+    border: 1px solid #D2D2D2;
+    border-radius: 4px;
+}
+
+.order-title {
+    margin: 0 0 40px 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Order Item Styling */
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item-name-section {
+    display: flex;
+    align-items: center;
+}
+
+.item-name-section h3 {
+    font-size: 20px;
+    margin: 0;
+    margin-right: 8px;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    color: #BBBBBB;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.remove-btn:hover {
+    text-decoration: underline;
+}
+
+.item-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Divider Styling */
+.order-divider {
+    border: none;
+    height: 1px;
+    background-color: #D2D2D2;
+    margin: 20px 0;
+}
+
+/* Order Total Styling */
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Complete Order Button */
+.complete-order-btn {
+    width: 100%;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.complete-order-btn:hover {
+    background-color: #0EB67F;
+}
+
+/* Payment Modal Styling */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#payment-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #D2D2D2;
+    border-radius: 4px;
+}
+
+#pay-btn, #close-modal {
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#pay-btn {
+    background-color: #16DB99;
+    color: white;
+    margin-right: 10px;
+}
+
+#close-modal {
+    background-color: #EEEEEE;
+}
+
+.error-message {
+    color: red;
+    display: none;
+    margin-bottom: 10px;
+}
+
+/* Order Confirmation */
+.order-confirmation {
+    text-align: center;
+    padding: 40px;
+    background-color: #ECFDF5;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+
+.order-confirmation h2 {
+    color: #065F46;
+}
+
